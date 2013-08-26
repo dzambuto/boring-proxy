@@ -1,0 +1,26 @@
+{
+  "name": "boring-proxy",
+  "version": "0.1.0",
+  "description": "nodejs script for automate proxy settings in xubuntu",
+  "author": "Daniele Zambuto <daniele.zambuto@gmail.com>",
+  "keywords": [
+    "proxy",
+    "settings",
+    "script",
+    "shell",
+    "xubuntu",
+    "linux"
+  ],
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.10.0"
+  },
+  "main": "index",
+  "bin": {
+    "proxy": "./bin/proxy"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~2.0.0"
+  }
+}
